@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="visual" type="depth.py" name="depth.py" output="screen"/>
+    <node pkg="visual" type="identify.py" name="identify.py" output="screen"/>
+</launch>
